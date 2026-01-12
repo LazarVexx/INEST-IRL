@@ -11,6 +11,7 @@
 
 This thesis addresses the challenge of learning complex manipulation tasks from visual demonstrations in the **X-Magical** environment. The specific task is "Sweep to top in order": moving three colored blocks (Red, Blue, Yellow) to a green target area at the top of the environment in the correct sequential order.
 
+
 Traditional Reinforcement Learning (RL) approaches face limitations:
 - **Complex reward engineering**: Designing reward functions is difficult
 - **Inefficient exploration**: High-dimensional spaces require extensive sampling
@@ -150,7 +151,6 @@ INEST-IRL builds upon:
 - **HOLD** (Alakuijala et al., 2022): Learning from human demonstration videos
 - **TCC** (Dwibedi et al., 2019): Temporal cycle-consistency for alignment
 - **Active Pretraining** (Liu & Abbeel, 2021): Intrinsic motivation for exploration
-- **MimicPlay** (Wang et al., 2023): Hierarchical imitation for long-horizon tasks
 
 ---
 
